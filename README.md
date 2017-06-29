@@ -35,6 +35,13 @@ name.length // Affiche la taille de la variable name (5);
 ```javascript 
 
 const monTableau = ["Un", "Deux", "Trois", "Quatre", "Cinq", "Six"];
+console.log(monTableau[0]); // Affiche le premier élement du tableau, ici "Un". 
+console.log(monTableau[5]); // Affiche le 6 élement du tableau, qui est répértorié à l'index 5, ici "Six". 
+
+monTableau.length; //Permet d'avoir le nombre d'index du tableau. 
+monTableau.push("Sept"); // Ajoute "Sept à la fin du tableau. 
+
+
 
 
 ```
