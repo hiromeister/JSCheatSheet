@@ -1,5 +1,11 @@
 # Javascript, cheat sheet. 
 
+- Les variables [## Les variables]
+- Les tableaux
+- Conditions : if, else
+- Les événements
+
+
 ## Les variables 
 
 ```javascript 
@@ -7,7 +13,7 @@
 var age = 20;
 let name = "Robin";
 const sexe = "Homme";
-name.length 
+name.length // Affiche la taille de la variable name (5);
 
 ```
 
@@ -53,6 +59,14 @@ blur="";	//Annuler le « ciblage » de l'élément
 change="";	//Changer la valeur d'un élément spécifique aux formulaires (input,checkbox, etc.)
 input=""; 	//Taper un caractère dans un champ de texte (son support n'est pas complet sur tous les navigateurs)
 select=""; 	//Sélectionner le contenu d'un champ de texte (input,textarea, etc.)
+
+
+// Spécifique à l'élément <form>
+
+	
+
+submit; //Envoyer le formulaire
+reset; //Réinitialiser le formulaire
 
 
 
