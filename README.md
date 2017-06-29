@@ -3,7 +3,7 @@
 - Les variables [## Les variables]
 - Les tableaux
 - Conditions : if, else
-- Les événements
+- [Les événements](#events) 
 
 
 ## Les bases
@@ -61,7 +61,7 @@ if (num1 == num2) {  		//Si num1 est égal à num 2
 
 ```
 
-## Les événements
+## Les événements (#events)
 
 ```javascript
 dblclick="";	//Double-cliquer sur l'élément
