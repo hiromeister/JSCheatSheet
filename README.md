@@ -88,7 +88,23 @@ reset; //Réinitialiser le formulaire
 ## DOM 
 
 ```javascript
-document.getElementById("IdName"); // Permet de récupérer l'élément dont l'ID est spécifié.
+document.getElementById("idName"); // Permet de récupérer l'élément dont l'ID est spécifié, exemple <div id ="idName">.
+document.getElementsByTagName('tagName'); // Permet de récupérer l'élément dont le tag est spécifié, exemple : <div>. 
+document.getElementsByName('name'); // Permet de récupérer l'élément dont le name est spécifié, exemple : name="nom". 
+document.querySelector(''); 
+document.querySelectorAll('');
+```
 
+## Boucle while 
+
+```javascript
+var a = 0;
+var b = 0; 
+
+while (a < 3) { 	//A chaque recommencement de la boucle, la valeur a va s'incrémenter et s'ajouter à  b.  
+	a++;		//Après la première itération : n = 1 et x = 1
+	b += a;		//Après la deuxième itération : n = 2 et x = 3
+}			//Après la troisième itération :	n = 3 et x = 6
+			// Et la boucle s'arrête lorsque a n'est plus inférieur à 3. 
 
 ```
