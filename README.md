@@ -1,1 +1,1 @@
-# JSCheatSheet
+# Javascript, cheat sheet. 
