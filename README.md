@@ -9,3 +9,11 @@ let name = "Robin";
 const sexe = "Homme";
 
 ```
+
+### Les tableaux 
+
+```javascript 
+
+const monTableau = ["Un", "Deux", "Trois", "Quatre", "Cinq", "Six"]
+
+```
