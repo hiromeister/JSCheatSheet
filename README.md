@@ -52,10 +52,10 @@ monTableau.push("Sept"); // Ajoute "Sept à la fin du tableau.
 const num1 = 50;
 const num2 = 40;
 
-if (num1 == num2) {
-	alert("Egalité");
-}else { 
-	alert("Différent");
+if (num1 == num2) {  		//Si num1 est égal à num 2
+	alert("Egalité");	// afficher "Egalité"
+}else { 			//Sinon
+	alert("Différent");	// afficher "Différent";
 }
 
 
@@ -64,7 +64,6 @@ if (num1 == num2) {
 ## Les événements
 
 ```javascript
-
 dblclick="";	//Double-cliquer sur l'élément
 mouseover="";	//Faire entrer le curseur sur l'élément
 mouseout="";	//Faire sortir le curseur de l'élément
@@ -84,8 +83,12 @@ select=""; 	//Sélectionner le contenu d'un champ de texte (input,textarea, etc.
 // Spécifique à l'élément <form>
 submit; //Envoyer le formulaire
 reset; //Réinitialiser le formulaire
+```
 
+## DOM 
 
+```javascript
+document.getElementById("IdName"); // Permet de récupérer l'élément dont l'ID est spécifié.
 
 
 ```
