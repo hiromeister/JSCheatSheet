@@ -11,7 +11,7 @@
 ```javascript 
 var string = "Steve"; //Ceci est une chaine de caractère.
 var nombre = 4;       //Ceci est un nombre. 
-var boolean = true;   /Ceci est un booléen, qui ne peut être qu'égal à vrai ou faux, donc true ou false. 
+var boolean = true;   //Ceci est un booléen, qui ne peut être qu'égal à vrai ou faux, donc true ou false. 
 var monTableau = ["Un", "Deux", "Trois", "Quatre", "Cinq", "Six"]; // Le tableau permet de stocker plusieurs valeur dans une même variable.
 var objet = document.getElementbyId("main"); // Un objet peut-être nimporte quel valeur. C'est une structure très utilisée et flexible. 
 
@@ -23,9 +23,9 @@ var objet = document.getElementbyId("main"); // Un objet peut-être nimporte que
 
 ```javascript 
 
-var age = 20;
-let name = "Robin";
-const sexe = "Homme";
+var age = 20; // Variable basique, peut être utilité en local comme en global. 
+let name = "Robin"; // La variable let permet de déclarer une variable qui ne peut être utilité que dans le bloc où elle a été déclaré. 
+const sexe = "Homme"; // La variable const ne peut être modifié. Elle peut être appliqué en local comme en global. 
 name.length // Affiche la taille de la variable name (5);
 
 ```
