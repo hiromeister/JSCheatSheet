@@ -6,6 +6,19 @@
 - Les événements
 
 
+## Les bases
+
+```javascript 
+var string = "Steve"; //Ceci est une chaine de caractère.
+var nombre = 4;       //Ceci est un nombre. 
+var boolean = true;   /Ceci est un booléen, qui ne peut être qu'égal à vrai ou faux, donc// true ou false //. 
+var monTableau = ["Un", "Deux", "Trois", "Quatre", "Cinq", "Six"]; // Le tableau permet de stocker plusieurs valeur dans une même variable.
+var objet = document.getElementbyId("main"); // Un objet peut-être nimporte quel valeur. C'est une structure très utilisée et flexible. 
+
+
+```
+
+
 ## Les variables 
 
 ```javascript 
@@ -62,9 +75,6 @@ select=""; 	//Sélectionner le contenu d'un champ de texte (input,textarea, etc.
 
 
 // Spécifique à l'élément <form>
-
-	
-
 submit; //Envoyer le formulaire
 reset; //Réinitialiser le formulaire
 
