@@ -112,7 +112,7 @@ while (a < 3) { 	//A chaque recommencement de la boucle, la valeur a va s'incré
 ## Canvas 
 
 ```javascript 
-### Etapes d'un tracé 
+
 beginPath(); //Initialisation  
 moveTo(x,y); //Point de départ
 lineTo(x,y); // Point d'arrivée
