@@ -110,8 +110,9 @@ while (a < 3) { 	//A chaque recommencement de la boucle, la valeur a va s'incré
 ```
 
 ## Canvas 
-### Etapes d'un tracé 
 
+```javascript 
+### Etapes d'un tracé 
 * Initialisation - beginPath();
 * Point de départ - moveTo(x,y);
 * Point d'arrivée - lineTo(x,y);
@@ -119,10 +120,8 @@ while (a < 3) { 	//A chaque recommencement de la boucle, la valeur a va s'incré
 * Contour ou remplissage -strok(); | fill();
 
 
-```javascript 
-
-
-
+fill() -> remplir la forme
+stroke() -> contour de la forme
 
 ``` 
 
