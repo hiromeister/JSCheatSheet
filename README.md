@@ -113,15 +113,15 @@ while (a < 3) { 	//A chaque recommencement de la boucle, la valeur a va s'incré
 
 ```javascript 
 ### Etapes d'un tracé 
-* Initialisation - beginPath();
-* Point de départ - moveTo(x,y);
-* Point d'arrivée - lineTo(x,y);
-* Clôture - closePath();
-* Contour ou remplissage -strok(); | fill();
+beginPath(); //Initialisation  
+moveTo(x,y); //Point de départ
+lineTo(x,y); // Point d'arrivée
+closePath(); /Clôture
+strok(); | fill(); //Contour ou remplissage 
 
 
-fill() -> remplir la forme
-stroke() -> contour de la forme
+fill() //remplir la forme
+stroke() //contour de la forme
 
 ``` 
 
