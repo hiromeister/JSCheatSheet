@@ -108,3 +108,21 @@ while (a < 3) { 	//A chaque recommencement de la boucle, la valeur a va s'incré
 			// Et la boucle s'arrête lorsque a n'est plus inférieur à 3. 
 
 ```
+
+## Canvas 
+### Etapes d'un tracé 
+
+* Initialisation - beginPath();
+* Point de départ - moveTo(x,y);
+* Point d'arrivée - lineTo(x,y);
+* Clôture - closePath();
+* Contour ou remplissage -strok(); | fill();
+
+
+```javascript 
+
+
+
+
+``` 
+
