@@ -124,11 +124,11 @@ closePath(); //Clôture
 strok(); | fill(); //Contour ou remplissage 
 
 
-fill() //remplir la forme
-stroke() //contour de la forme
+fill(); //remplir la forme
+stroke(); //contour de la forme
 
-fillStyle="" // Permet de changer le style la forme.
-strokeStyle="" // Permet de changer le style du contour de la forme.
+fillStyle=""; // Permet de changer le style la forme.
+strokeStyle=""; // Permet de changer le style du contour de la forme.
 
 
 ctx.lineCap = "butt"; //Forme par défaut de type rectangulaire.
@@ -140,11 +140,12 @@ ctx.lineJoin ="Bevel"; // Crée un angle avec les bords arrondis.
 ctx.lineJoin = "miter";// Défaut, crée un angle sans style.
 
 
-arc(x, y, rayon, startAngle, endAngle, sensAntiHoraire) // x, y --> coordonnées du centre
-							// rayon --> rayon du cercle. 
-							//startAngle souvent égale à 0.
-							// endAngle -->Utilisé Math.PI
-							// sensAntiHoraire --> true, false
+arc(x, y, rayon, startAngle, endAngle, sensAntiHoraire); 
+// x, y --> coordonnées du centre
+// rayon --> rayon du cercle. 
+//startAngle souvent égale à 0.
+// endAngle -->Utilisé Math.PI
+// sensAntiHoraire --> true, false
 
 
 //Exemple concrès de cercle.
