@@ -83,6 +83,8 @@ select=""; 	//Sélectionner le contenu d'un champ de texte (input,textarea, etc.
 // Spécifique à l'élément <form>
 submit; //Envoyer le formulaire
 reset; //Réinitialiser le formulaire
+
+//source : https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/les-evenements-24
 ```
 
 ## DOM 
@@ -93,6 +95,8 @@ document.getElementsByTagName('tagName'); // Permet de récupérer l'élément d
 document.getElementsByName('name'); // Permet de récupérer l'élément dont le name est spécifié, exemple : name="nom". 
 document.querySelector(''); 
 document.querySelectorAll('');
+
+
 ```
 
 ## Boucle while 
@@ -116,12 +120,38 @@ while (a < 3) { 	//A chaque recommencement de la boucle, la valeur a va s'incré
 beginPath(); //Initialisation  
 moveTo(x,y); //Point de départ
 lineTo(x,y); // Point d'arrivée
-closePath(); /Clôture
+closePath(); //Clôture
 strok(); | fill(); //Contour ou remplissage 
 
 
 fill() //remplir la forme
 stroke() //contour de la forme
 
-``` 
+fillStyle="" // Permet de changer le style la forme.
+strokeStyle="" // Permet de changer le style du contour de la forme.
+
+
+ctx.lineCap = "butt"; //Forme par défaut de type rectangulaire.
+ctx.lineCap = "round"; //Forme avec les bords arrondis.
+ctx.lineCap = "square"; //Forme avec un carré ajouté à chaque bords.
+
+ctx.lineJoin ="round"; // Crée un angle avec les bords légérement arrondis.
+ctx.lineJoin ="Bevel"; // Crée un angle avec les bords arrondis.
+ctx.lineJoin = "miter";// Défaut, crée un angle sans style.
+
+
+arc(x, y, rayon, startAngle, endAngle, sensAntiHoraire) // x, y --> coordonnées du centre
+							// rayon --> rayon du cercle. 
+							//startAngle souvent égale à 0.
+							// endAngle -->Utilisé Math.PI
+							// sensAntiHoraire --> true, false
+
+
+//Exemple concrès de cercle.
+
+ctx.arc(150,150,60,0,Math.PI,false);
+ctx.arc(180,130,15,0,Math.PI*2,false);
+							
+
+```
 
