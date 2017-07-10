@@ -185,7 +185,7 @@ précédés immédiatement ou non par un élément .lien
 
 $("p:first"); //Séléctionne le premier paragraphe trouvé
 $("a:last"); // Séléctionne le dernier lien de la page
-$("p:eq(2)); //Séléctionne le 3eme paragraphe de la page (index 2).
+$("p:eq(2)"); //Séléctionne le 3eme paragraphe de la page (index 2).
 
 $("p[id]"); //Séléctionne seulement les paragraphes ayant un identifiant
 
