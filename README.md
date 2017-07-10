@@ -164,9 +164,9 @@ _______________________________________________
 
 ```javascript
 
-$(document).ready(function(){		 $(function(){
-				// ====   	
-});					});
+$(document).ready(function(){		   $(function(){
+			       /*====*/   	
+});					  });
 
 ```
 
@@ -178,13 +178,18 @@ $('p'); // Séléctionne tout les paragraphes
 $('.maClasse'); // Séléctionne les éléments avec la classe ".maClasse"
 $('#monId'); // Séléctionne l'élément avec l'identifiant "#monId".
 $('p .lien'); /* Séléctionne tout les éléments ayant la classe ".lien" contenu dans le parent "p".
-$('.lien + .visite');
-/* la sélection s'effectue sur les éléments ayant pour classe .visite,
-et qui sont immédiatement précédés d'un élément ayant pour classe .lien */
+$('.lien + .visite'); //La sélection s'effectue sur les éléments ayant pour classe .visite,
+et qui sont immédiatement précédés d'un élément ayant pour classe .lien 
+$('.lien ~ .visite');// Dans ce cas-là, ce sont tous les éléments .visite,
+précédés immédiatement ou non par un élément .lien
 
-$('.lien ~ .visite');
-/* dans ce cas-là, ce sont tous les éléments .visite,
-précédés immédiatement ou non par un élément .lien */
+$("p:first"); //Séléctionne le premier paragraphe trouvé
+$("a:last"); // Séléctionne le dernier lien de la page
+$("p:eq(2)); //Séléctionne le 3eme paragraphe de la page (index 2).
+
+$("p[id]"); //Séléctionne seulement les paragraphes ayant un identifiant
+
+$("input[name=username]"); Selectionne seulement l'élément du formulaire ayant comme nom "username"
 
 
 ```
