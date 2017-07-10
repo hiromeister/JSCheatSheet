@@ -189,6 +189,8 @@ $("p:eq(2)); //Séléctionne le 3eme paragraphe de la page (index 2).
 
 $("p[id]"); //Séléctionne seulement les paragraphes ayant un identifiant
 
+$("input[name=username]"); Selectionne seulement l'élément du formulaire ayant comme nom "username"
+
 
 ```
 
