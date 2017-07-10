@@ -153,6 +153,10 @@ arc(x, y, rayon, startAngle, endAngle, sensAntiHoraire);
 ctx.arc(150,150,60,0,Math.PI,false);
 ctx.arc(180,130,15,0,Math.PI*2,false);
 							
-
 ```
+
+**************************************************************************
+
+###jQuery
+
 
