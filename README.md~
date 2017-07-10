@@ -177,7 +177,7 @@ $(document).ready(function(){		   $(function(){
 $('p'); // Séléctionne tout les paragraphes
 $('.maClasse'); // Séléctionne les éléments avec la classe ".maClasse"
 $('#monId'); // Séléctionne l'élément avec l'identifiant "#monId".
-$('p .lien'); /* Séléctionne tout les éléments ayant la classe ".lien" contenu dans le parent "p".
+$('p .lien'); // Séléctionne tout les éléments ayant la classe ".lien" contenu dans le parent "p".
 $('.lien + .visite'); //La sélection s'effectue sur les éléments ayant pour classe .visite,
 et qui sont immédiatement précédés d'un élément ayant pour classe .lien 
 $('.lien ~ .visite');// Dans ce cas-là, ce sont tous les éléments .visite,
@@ -189,7 +189,14 @@ $("p:eq(2)); //Séléctionne le 3eme paragraphe de la page (index 2).
 
 $("p[id]"); //Séléctionne seulement les paragraphes ayant un identifiant
 
-$("input[name=username]"); Selectionne seulement l'élément du formulaire ayant comme nom "username"
+$("input[name=username]"); //Selectionne seulement l'élément du formulaire ayant comme nom "username"
+$("input[name!=username]"); // Selectionne les éléments qui n'ont pas comme nom "username"
+
+$("p:not(.rouge)"); // Selectinne tout les paragraphes execpté ceux ayant comme classe ".rouge"
+$('input:not(.bleu, .vert)'); // Selectionne tout les éléments du formulaire excepté de ceux ayant comme classe ".bleu" et ".vert"
+
+var $element = $('monElement'); //Sauvergarde la séléction dans une variable.
+
 
 
 ```
