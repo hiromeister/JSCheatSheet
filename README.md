@@ -159,6 +159,17 @@ _______________________________________________
 
 # Jquery
 
+
+## Document Ready Element
+
+```javascript
+
+$(document).ready(function(){		 $(function(){
+				// ====   	
+});					});
+
+```
+
 ## Les sélécteurs
 
 ```javascript
@@ -167,6 +178,13 @@ $('p'); // Séléctionne tout les paragraphes
 $('.maClasse'); // Séléctionne les éléments avec la classe ".maClasse"
 $('#monId'); // Séléctionne l'élément avec l'identifiant "#monId".
 $('p .lien'); /* Séléctionne tout les éléments ayant la classe ".lien" contenu dans le parent "p".
+$('.lien + .visite');
+/* la sélection s'effectue sur les éléments ayant pour classe .visite,
+et qui sont immédiatement précédés d'un élément ayant pour classe .lien */
+
+$('.lien ~ .visite');
+/* dans ce cas-là, ce sont tous les éléments .visite,
+précédés immédiatement ou non par un élément .lien */
 
 
 ```
