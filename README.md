@@ -197,8 +197,24 @@ $('input:not(.bleu, .vert)'); // Selectionne tout les éléments du formulaire e
 
 var $element = $('monElement'); //Sauvergarde la séléction dans une variable.
 
+$('input:button'); // on sélectionne un input de type button
+$('input:text'); // texte
+$('input:file'); // fichier
+$('input:checkbox'); // case à cocher
+$('input:radio'); // bouton radio
+$('input:submit'); //bouton d'envoi
+:checked //vérifie qu'une case est cochée 
+:disabled //cible les éléments désactivés 
+:enabled //fait le contraire, il sélectionne les éléments activés
+
+$('p').each(function(){
+    
+    $(this).html('Hello World !'); // $(this) représente le paragraphe courant
+
+});
 
 
 ```
 
+## Les événements
 

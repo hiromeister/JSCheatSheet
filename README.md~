@@ -179,7 +179,7 @@ $('.maClasse'); // Séléctionne les éléments avec la classe ".maClasse"
 $('#monId'); // Séléctionne l'élément avec l'identifiant "#monId".
 $('p .lien'); // Séléctionne tout les éléments ayant la classe ".lien" contenu dans le parent "p".
 $('.lien + .visite'); //La sélection s'effectue sur les éléments ayant pour classe .visite,
-et qui sont immédiatement précédés d'un élément ayant pour classe .lien 
+et qui sont immédiatement précédés dun élément ayant pour classe .lien 
 $('.lien ~ .visite');// Dans ce cas-là, ce sont tous les éléments .visite,
 précédés immédiatement ou non par un élément .lien
 
@@ -197,6 +197,21 @@ $('input:not(.bleu, .vert)'); // Selectionne tout les éléments du formulaire e
 
 var $element = $('monElement'); //Sauvergarde la séléction dans une variable.
 
+$('input:button'); // on sélectionne un input de type button
+$('input:text'); // texte
+$('input:file'); // fichier
+$('input:checkbox'); // case à cocher
+$('input:radio'); // bouton radio
+$('input:submit'); //bouton d'envoi
+:checked //vérifie qu'une case est cochée 
+:disabled //cible les éléments désactivés 
+:enabled //fait le contraire, il sélectionne les éléments activés
+
+$('p').each(function(){
+    
+    $(this).html('Hello World !'); // $(this) représente le paragraphe courant
+
+});
 
 
 ```
