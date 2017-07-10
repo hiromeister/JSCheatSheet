@@ -155,6 +155,19 @@ ctx.arc(180,130,15,0,Math.PI*2,false);
 							
 ```
 
-#Jquery
+_______________________________________________
+
+# Jquery
+
+## Les sélécteurs
+
+```javascript
+
+$('p'); // Séléctionne tout les paragraphes
+$('.maClasse'); // Séléctionne les éléments avec la classe ".maClasse"
+$('#monId'); // Séléctionne l'élément avec l'identifiant "#monId".
+
+
+```
 
 

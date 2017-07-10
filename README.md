@@ -163,6 +163,12 @@ _______________________________________________
 
 ```javascript
 
+$('p'); // Séléctionne tout les paragraphes
+$('.maClasse'); // Séléctionne les éléments avec la classe ".maClasse"
+$('#monId'); // Séléctionne l'élément avec l'identifiant "#monId".
+$('p .lien'); /* Séléctionne tout les éléments ayant la classe ".lien" contenu dans le parent "p".
+
+
 ```
 
 
